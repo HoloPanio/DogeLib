@@ -2,25 +2,25 @@
 	"name": "dogelib",
 	"author": "Jackson Roberts <jackson@holopanio.com>",
 	"description": "A client-side implementation of dogehouse.",
-	"version": "1.0.1",
-	"license": "GPL-3.0",
-	"main": "src/index.ts",
+	"version": "1.0.2",
+	"license": "GPL-3.0-or-later",
+	"main": "src/index",
 	"scripts": {
 		"build": "tsc",
 		"clean": "tsc -b . --clean"
 	},
 	"repository": {
-    "type": "git",
-    "url": "git+https://github.com/HoloPanio/DogeLib.git"
-  },
+		"type": "git",
+		"url": "git+https://github.com/HoloPanio/DogeLib.git"
+	},
 	"keywords": [
 		"dogelib",
 		"dogehouse"
 	],
 	"bugs": {
-    "url": "https://github.com/HoloPanio/DogeLib/issues"
-  },
-  "homepage": "https://github.com/HoloPanio/DogeLib#readme",
+		"url": "https://github.com/HoloPanio/DogeLib/issues"
+	},
+	"homepage": "https://github.com/HoloPanio/DogeLib#readme",
 	"bundleDependencies": false,
 	"dependencies": {
 		"@discordjs/collection": "^0.1.6",
