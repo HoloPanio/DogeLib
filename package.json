@@ -24,12 +24,12 @@
 		"@types/node": "^14.14.43"
 	},
 	"keywords": [
-		"dogehouse.js"
+		"dogelib"
 	],
-	"license": "MIT",
+	"license": "GPL",
 	"main": "src/index.ts",
-	"name": "dogehouse.js",
-	"version": "0.0.12",
+	"name": "dogelib",
+	"version": "1.0.0",
 	"files": [
 		"/**/*"
 	]
