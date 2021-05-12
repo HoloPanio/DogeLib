@@ -2,7 +2,7 @@
 	"name": "dogelib",
 	"author": "Jackson Roberts <jackson@holopanio.com>",
 	"description": "A client-side implementation of dogehouse.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "GPL",
 	"main": "src/index.ts",
 	"scripts": {
