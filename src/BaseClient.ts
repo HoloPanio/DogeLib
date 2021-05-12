@@ -14,12 +14,12 @@ export class BaseClient extends TypedEmitter<ClientEvents>{
 	 * @returns A randomly generated string. 
 	 */
 	randStr(length: number): string {
-		let result = [];
+		let result = "";
 		let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 		let charactersLength = characters.length;
 		for ( var i = 0; i < length; i++ ) { 
-		  result.push(characters.charAt(Math.floor(Math.random() * charactersLength)));
+		  result += characters.charAt(Math.floor(Math.random() * charactersLength));
 		}
-	   return result.join('');	
+	   return result;	
 	}
 }
