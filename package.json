@@ -1,4 +1,26 @@
 {
+	"name": "dogelib",
+	"author": "Jackson Roberts <jackson@holopanio.com>",
+	"description": "A client-side implementation of dogehouse.",
+	"version": "1.0.0",
+	"license": "GPL",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"clean": "tsc -b . --clean"
+	},
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoloPanio/DogeLib.git"
+  },
+	"keywords": [
+		"dogelib",
+		"dogehouse"
+	],
+	"bugs": {
+    "url": "https://github.com/HoloPanio/DogeLib/issues"
+  },
+  "homepage": "https://github.com/HoloPanio/DogeLib#readme",
 	"bundleDependencies": false,
 	"dependencies": {
 		"@discordjs/collection": "^0.1.6",
@@ -18,18 +40,10 @@
 		"tiny-typed-emitter": "^2.0.3"
 	},
 	"deprecated": false,
-	"description": "Client-side implementation of DogeHouse API. Create chat & music bots with ease.",
 	"devDependencies": {
 		"@types/events": "^3.0.0",
 		"@types/node": "^14.14.43"
 	},
-	"keywords": [
-		"dogelib"
-	],
-	"license": "GPL",
-	"main": "src/index.ts",
-	"name": "dogelib",
-	"version": "1.0.0",
 	"files": [
 		"/**/*"
 	]
