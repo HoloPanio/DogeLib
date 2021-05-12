@@ -27,7 +27,6 @@ jobs:
           tag_message: "v%s"
           create_tag: "true"
           commit_pattern: "^Release (\\S+)"
-          publish_command: "npm publish"
           publish_args: "--non-interactive"
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
