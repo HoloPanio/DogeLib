@@ -25,7 +25,6 @@ jobs:
           tag_message: "v%s"
           create_tag: "true"
           commit_pattern: "^Release (\\S+)"
-          publish_command: "yarn build"
           publish_args: "--non-interactive"
         env: # More info about the environment variables in the README
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
