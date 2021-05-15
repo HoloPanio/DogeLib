@@ -13,7 +13,7 @@ export const CONNECTION = {
 
 export const API_INFO = {
 	url: 'https://api.dogehouse.tv',
-	version: '0.3.0'
+	version: '0.2.0'
 }
 
 export const TIMEOUT = {

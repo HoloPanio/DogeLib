@@ -9,7 +9,7 @@ export type MessageTokenType =
 
 export interface QueuedMessageObject {
 	ref: string,
-	resolve: Promise<MessageController>
+	resolve: Promise<void>
 }
 
 export interface SendChatMessageOptions {

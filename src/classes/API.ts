@@ -166,6 +166,7 @@ export class API {
 					if (msg.ref == uuid) return resolve(msg);
 				});
 				this._socket?.send(JSON.stringify(obj));
+				console.log(obj);
 			} else {
 				await this._socket?.send(JSON.stringify(obj));
 				clearTimeout(requestTimeout);

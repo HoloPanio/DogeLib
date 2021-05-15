@@ -60,6 +60,7 @@ export class RoomChatController {
 					});
 
 					this.client.api.fetch(OpCode.CHAT.SEND_MSG, {tokens}, {expectResponseData: false})
+					resolve();
 				})
 			})
 		});
