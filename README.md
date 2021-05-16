@@ -7,7 +7,7 @@ A client-side implementation of the DogeHouse API designed to be simple to use a
 1. Run : 
 
 ```bash
-$npm i dogelib
+npm i dogelib
 ```
 
 2. Make an index.js file : 
@@ -31,5 +31,5 @@ app.login(apiKey).then(async () => {
 4. Run : 
 
 ```bash
-@node index.js
+node index.js
 ```
