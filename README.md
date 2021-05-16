@@ -1,7 +1,7 @@
 # DogeLib
 A client-side implementation of the DogeHouse API designed to be simple to use and incredibly powerful.
 
-### Written by HoloPanio
+#### Written by HoloPanio
 
 ## How to setup Dogelib : 
 1. Run : 
