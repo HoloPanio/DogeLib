@@ -12,14 +12,18 @@ Install with npm:
 npm install dogelib
 ```
 
+### Create an Api Key
+
+[Guide to get api key](https://github.com/benawad/dogehouse/blob/c9d37f707b860ea4ca151b34d1c0e9c10949184d/CREATE_BOT_ACCOUNT.MD)
+
 ### Basic Usage
 
 ```javascript
 // require it
-const DogeLib = require("dogelib");
+const { Client } = require("dogelib");
 
 // initialise the client
-const bot = new DogeLib.Client();
+const bot = new Client();
 
 // log your bot in
 bot.login("YOUR API KEY GOES HERE").then(async () => {
