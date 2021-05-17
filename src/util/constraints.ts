@@ -21,3 +21,12 @@ export const TIMEOUT = {
 	LEAVE_ROOM: 10000,
 	FETCH_REQUEST: 20000,
 }
+
+export const ERROR = {
+	CHAT: {
+		SEND_MESSAGE: {
+			NO_RESPONSE: `Failed to send message: did not receive message back from server!`,
+			NO_CONTROLLER: `Failed to send message: MessageController failed to initialize!`,
+		},
+	},
+}
