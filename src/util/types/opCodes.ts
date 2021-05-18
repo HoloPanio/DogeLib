@@ -17,7 +17,7 @@ import {
 	LegacyRoomInfoResponseSchema, 
 	RoomInfoResponseSchema,
 } from "../responseSchemas";
-import { SendChatMessageResponseSchema } from "../responseSchemas/chat";
+import { ReceivedMessageSchema } from "../responseSchemas/chat";
 
 import { BaseUserInfo } from "./user";
 
@@ -117,7 +117,7 @@ export interface OpCodeResponse {
 export interface OpCodeEvents {
 	[OpCode.AUTH.REPLY]: (msg: SocketMessage<BaseUserInfo>) => void;
 
-	[OpCode.CHAT.NEW_CHAT_MESSAGE]: (msg: LegacySocketMessage<SendChatMessageResponseSchema>) => void;
+	[OpCode.CHAT.NEW_CHAT_MESSAGE]: (msg: LegacySocketMessage<ReceivedMessageSchema>) => void;
 }
 
 export type AccessToken = string;
